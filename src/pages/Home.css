@@ -36,36 +36,49 @@
     .landing .text {
       text-align: center;
       width: 40%;
-      margin: 765px 0px 0px 36px;
+      margin: 765px 0px 0px 32px;
     }
     .landing {
       margin-right: -450px
     }
 }
     
-    /* Tablet */
-    @media screen and (min-width: 768px) {
+/* Tablet */
+@media screen and (min-width: 768px) {
     .aboutme {
-      margin-left: 120px;
+      margin-left: 400px;
       } 
     }
     
-    /* Laptop */
-    @media screen and (min-width: 992px) {
+/* Laptop */
+@media screen and (min-width: 992px) {
     .aboutme {
       margin-left: 400px;
       }
     .landing {
-        height: auto!important;
+      height: auto!important;
     }
     .landing .text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: right;
-        width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: right;
+      width: 50%;
     }
 }
 
+/* Desktop */
+@media screen and (min-width: 1440px) {
+  .aboutme {
+    margin-left: 560px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1800px) {
+  .aboutme {
+    margin-left: 600px;
+  }
+}
 
