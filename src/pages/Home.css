@@ -53,7 +53,7 @@
     /* Laptop */
     @media screen and (min-width: 992px) {
     .aboutme {
-      margin-left: 630px;
+      margin-left: 400px;
       }
     .landing {
         height: auto!important;
