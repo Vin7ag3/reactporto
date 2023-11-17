@@ -14,7 +14,8 @@ export const Project = () => {
               <img src={data.img} alt="" />
               <div className="content">
                 <p>{data.description}</p>
-                <a href={data.link}>view project</a>
+                <a href={data.link}>GitHub Repo</a>
+                <a href={data.deploy}>View Project</a>
               </div>
             </div>
           );
