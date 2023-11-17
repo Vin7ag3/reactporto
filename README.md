@@ -4,7 +4,7 @@
 
 ## Description
 ```
-React Porfolio
+React Portfolio
 ```
 
 Reactporto app features a minimal layout and navigation links to About, Portfolio, Contact, and Resume which enables easy access to specific sections. 
@@ -54,15 +54,18 @@ Deployed netlify app:
 https://react-porto.netlify.app
 
 ## License
+
 MIT
 
 ## Contributing
+
 None
 
 ## Tests
+
 None
 
 ## Contact Information
-Github Username: Vin7ag3
 
+[GitHub](https://github.com/Vin7ag3)
 Contact E-mail: vincepeo@yahoo.com
