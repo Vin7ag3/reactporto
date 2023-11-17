@@ -45,6 +45,7 @@ const portfolio = [{
     img: "https://i.imgur.com/5O7cOvH.png",
     description: "Employtrack - This application handles management of departments, roles, and employees for business owners",
     link: "https://github.com/Vin7ag3/employtrack",
+    deploy: "https://www.loom.com/share/fffa3b691ff744799ac17b70dffc0873/",
 },
 ];
 
