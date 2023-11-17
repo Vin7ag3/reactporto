@@ -3,7 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Portfolio react
+```
+React Porfolio
+```
+
+![Opera Snapshot_2023-11-16_184336_localhost](https://github.com/Vin7ag3/team5/assets/48032663/5f269ae5-5279-4007-b727-a52e392f5ec3)
 
 ## Table of Contents:
 
@@ -23,7 +27,9 @@ Portfolio react
 None
 
 ## Usage
-None
+
+Deployed netlify app:
+https://react-porto.netlify.app/reactporto/portfolio
 
 ## License
 MIT
