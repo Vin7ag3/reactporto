@@ -9,6 +9,7 @@ const Header = () => {
     <Col>
         <div className="logo">
             <img src={logo.img} />
+             <p className="logoname">Vince Peo</p>
         </div>
         <Navigation />
     </Col>
