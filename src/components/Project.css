@@ -1,0 +1,70 @@
+.porto {
+    column-width: 15em;
+    -moz-column-width: 15em;
+    -webkit-column-width: 15em;
+    column-gap: 4rem;
+    -moz-column-gap: 4rem;
+    -webkit-column-gap: 4rem;
+}
+
+.works {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+    position: relative;
+    padding: 6px;
+    transition: 0.3s ease;
+    font-size: 0;
+    min-height: 300px;
+    filter: saturate(0.3);
+}
+
+.works img {
+    max-width: 100%;
+}
+
+.works .content {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.works .content {
+    opacity: 0;
+    transition-delay: 1s;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.works:hover {
+    box-shadow: 0 10px 15px 0 rgba(90, 85, 85, 0.25);
+}
+
+.works:hover .content {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    opacity: 1;
+}
+
+.works .content a {
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.works .content a:hover {
+    text-decoration: none;
+}
