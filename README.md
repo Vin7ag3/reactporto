@@ -29,7 +29,7 @@ None
 ## Usage
 
 Deployed netlify app:
-https://react-porto.netlify.app/reactporto/portfolio
+https://react-porto.netlify.app
 
 ## License
 MIT
