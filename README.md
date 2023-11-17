@@ -7,7 +7,7 @@
 React Porfolio
 ```
 
-Reactporto app features a minimal layout features Navigation to About, Portfolio, Contact, and Resume which enables easy access to specific sections. 
+Reactporto app features a minimal layout and navigation links to About, Portfolio, Contact, and Resume which enables easy access to specific sections. 
 Smooth transitions and dynamic loading enhance the user experience. The About section includes a recent photo and a short description. 
 The Portfolio section showcases eight recent applications in grids with links to each GitHub repositories. The Contact section boasts a user friendly form with validation notifications.
 In the Resume section, users can download the my resume and explore a list of proficiencies. The footer includes links to my GitHub, LinkedIn, and an Stackoverflow.
