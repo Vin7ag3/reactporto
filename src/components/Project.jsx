@@ -11,7 +11,7 @@ export const Project = () => {
         {portfolio.map((data, i) => {
           return (
             <div key={i} className="works">
-              <img src={data.img} alt="" />
+              <img src={data.img} alt="projects" />
               <div className="content">
                 <p>{data.description}</p>
                 <a href={data.link}>GitHub Repo</a>
