@@ -10,7 +10,7 @@ const Download = () => {
         href={Resume}
         download='Vince-Peo-Resume.pdf'
       >
-       <FaDownload /> Resume
+       <FaDownload /> Download Resume
       </a>
     </div>
   );
