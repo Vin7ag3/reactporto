@@ -8,7 +8,6 @@ import { banner, about } from "../Content";
 export const Home = () => {
   return (
  <Container>
-  <section>
     <div className="landing">
       <div
         className="h_bg-image order-1 order-lg-2"
@@ -31,8 +30,7 @@ export const Home = () => {
             />
              <p className="aboutme">{about.me}</p>
       </div>
-       </div>
-  </section>
+    </div>
 </Container>
   );
 };
