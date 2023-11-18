@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
+import { Container } from "react-bootstrap";
 import { TypeAnimation } from 'react-type-animation';
 import { banner, about } from "../Content";
 
 // landing page with typeanimation
 export const Home = () => {
   return (
-    <div>
+ <Container>
   <section>
     <div className="landing">
       <div
@@ -32,7 +33,7 @@ export const Home = () => {
       </div>
        </div>
   </section>
-</div>
+</Container>
   );
 };
 
