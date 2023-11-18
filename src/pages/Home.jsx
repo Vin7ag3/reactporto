@@ -7,7 +7,7 @@ import { banner, about } from "../Content";
 // landing page with typeanimation
 export const Home = () => {
   return (
- <Container>
+ <Container fluid>
     <div className="landing">
       <div
         className="h_bg-image order-1 order-lg-2"
